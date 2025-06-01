@@ -2,7 +2,7 @@ const container = document.getElementById('contain-pokemons')
 
 document.addEventListener('DOMContentLoaded', () => {
     let index = 1;
-    for (let lines = 1; lines < 20; lines++) {
+    for (let lines = 1; lines < 100; lines++) {
         const newRow = document.createElement('div')
         newRow.classList.add('row')
 
