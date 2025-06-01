@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             newPokemon.appendChild(newImage)
             newPokemon.appendChild(newIndex)
 
-            if (index === 151) return;
+            if (index === 1025) return;
         }
     }
 })
